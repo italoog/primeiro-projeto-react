@@ -27,13 +27,15 @@
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "import/extensions": [
-      "erro",
+      "error",
       "ignorePackages",
       {
         "ts": "never",
         "tsx": "never"
       }
-    ]
+    ],
+    "no-use-before-define": "off",
+    "@typescript-eslint/no-use-before-define": ["error"]
   },
   "settings": {
     "import/resolver": {
